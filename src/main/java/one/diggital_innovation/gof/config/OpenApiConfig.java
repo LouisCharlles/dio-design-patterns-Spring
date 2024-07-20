@@ -14,9 +14,9 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("API de Exemplo")
+                        .title("API retorna CEP")
                         .version("1.0")
-                        .description("Documentação da API de Exemplo usando Springdoc OpenAPI e Swagger UI"));
+                        .description("Documentação da API que retorna dados do cep e localização por json."));
     }
 
     @Bean
